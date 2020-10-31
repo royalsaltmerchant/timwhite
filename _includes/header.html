@@ -1,0 +1,38 @@
+<header class="header">
+    <h1 class="title">{{ site.title }}</h1>
+    <div class="nav">
+        <p class="nav-item"><a href="{{ site.baseurl }}/index.html">Home</a></p>
+        <hr>
+        <p class="nav-item"><a href="{{ site.baseurl }}/about.html">About</a></p>
+        <hr>
+        <p class="nav-item"><a href="{{ site.baseurl }}/new.html">Page</a></p>
+        <hr>
+        <p class="nav-item"><a href="{{ site.baseurl }}/links.html">Links</a></p>
+    </div>
+    <div class="container" id="container" onclick="hamburger()">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      
+        <div class="container-content" id="container-content">
+          <p class="menup">
+            <a class="aref" href="{{ site.baseurl }}/index.html">Home</a>
+          </p>
+          <hr>
+          <p class="menup">
+            <a class="aref" href="{{ site.baseurl }}/about.html">About</a>
+          </p>
+          <hr>
+          <p class="menup"> 
+            <a class="aref" href="{{ site.baseurl }}/new.html">Page</a>
+          </p>
+          <hr>
+          <p class="menup"> 
+            <a class="aref" href="{{ site.baseurl }}/links.html">Links</a>
+          </p>
+        </div>
+</header>
+<div class="progress-container" id="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+</div>
+<div class="location" id="location"></div>
